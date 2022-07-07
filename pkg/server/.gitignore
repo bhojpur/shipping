@@ -1,0 +1,6 @@
+.idea
+
+task
+node_modules
+package-lock.json
+config/local.js

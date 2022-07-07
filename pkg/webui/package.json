@@ -1,0 +1,58 @@
+{
+    "name": "bhojpur-shipping-ui",
+    "version": "1.0.0",
+    "description": "A web-based Shipping Management application",
+    "homepage": "https://www.bhojpur-consulting.com",
+    "author": "Bhojpur Consulting Private Limited, India",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/user-event": "^7.1.2",
+      "axios": "^0.19.2",
+      "bootstrap": "^4.4.1",
+      "eslint-plugin-import": "^2.20.1",
+      "formik": "^2.1.4",
+      "husky": "^4.2.3",
+      "lodash": "^4.17.15",
+      "moment": "^2.24.0",
+      "react": "^16.13.1",
+      "react-bootstrap": "^1.0.0",
+      "react-dom": "^16.13.1",
+      "react-router-bootstrap": "^0.25.0",
+      "react-router-dom": "^5.1.2",
+      "react-scripts": "3.4.1",
+      "rxjs": "^6.5.5",
+      "yup": "^0.28.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "lint": "eslint .",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "eslint": "^6.8.0",
+      "eslint-config-google": "^0.14.0",
+      "eslint-plugin-react": "^7.19.0"
+    },
+    "husky": {
+      "hooks": {
+        "pre-commit": "npm run lint"
+      }
+    }
+  }
