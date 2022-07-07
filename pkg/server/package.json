@@ -34,11 +34,6 @@
       "eslint-config-google": "^0.14.0",
       "husky": "^4.2.3"
     },
-    "husky": {
-      "hooks": {
-        "pre-commit": "npm run lint"
-      }
-    },
     "apidoc": {
       "title": "Bhojpur Shipping application API documentation"
     }
