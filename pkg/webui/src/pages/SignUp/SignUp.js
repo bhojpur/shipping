@@ -43,7 +43,7 @@ const SignUp = (props) => {
       username: formValues.username,
       password: formValues.password,
       email: formValues.email,
-      role: formValues. accountType,
+      role: formValues.accountType,
     };
 
     setStatus(null);

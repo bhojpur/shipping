@@ -30,7 +30,7 @@ import {
   putLoad,
 } from '../../../api/loadsApi';
 
-const LoadsPanel = ({}) => {
+const LoadsPanel = () => {
   const [loads, setLoads] = useState([]);
   const [selectedLoadIdx, setSelectedLoadIdx] = useState(0);
   const [isEditMode, setIsEditMode] = useState(false);
